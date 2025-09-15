@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             upIcon.classList.toggle('hidden');
 
             if (isShowingMore) {
-                document.getElementById('browse').scrollIntoView({ behavior: 'smooth' });
+                document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
             }
         });
     }
