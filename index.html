@@ -535,6 +535,8 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+
                 <!-- Project 1 -->
                 <div class="project-card rounded-xl overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
@@ -555,7 +557,7 @@
                                 data-video="assets/chat.mp4" data-title="Chatbot For College">
                                 <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
-                            <a href="https://github.com/sabirmhd/chatbot" class="text-primary hover:text-secondary">
+                            <a href="https://github.com/sabirmhd/Chatbot-for-College" class="text-primary hover:text-secondary">
                                 <i class="fab fa-github"></i> Code
                             </a>
                         </div>
@@ -589,28 +591,7 @@
                     </div>
                 </div>
 
-                <!-- VIDEO MODAL!!!!!!!! -->
-
-                <div class="modal fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50"
-                    id="videoModal" style="visibility:hidden; opacity:0;">
-                    <div class="modal-content bg-slate-800 rounded-xl w-full max-w-4xl overflow-hidden">
-                        <div class="modal-header flex justify-between items-center p-4 border-b border-slate-700">
-                            <h3 class="text-xl font-bold" id="modalTitle">Project Demo</h3>
-                            <button class="close-modal text-2xl text-slate-400 hover:text-white">&times;</button>
-                        </div>
-                        <div class="modal-body p-4">
-                            <video id="demoVideo" controls class="w-full rounded-lg">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
-                        <div class="modal-footer p-4 border-t border-slate-700 text-right">
-                            <button
-                                class="close-modal bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded">Close</button>
-                        </div>
-                    </div>
-                </div>
-
-
+    
                 <!-- Project 3 -->
                 <div class="project-card rounded-xl overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
@@ -631,7 +612,7 @@
                                 data-video="assets/vm.mp4" data-title="Virtual Mouse using Hand Gestures">
                                 <i class="fas fa-external-link-alt"></i> Live Demo
                             </a>
-                            <a href="https://github.com/sabirmhd/Virtual-Mouse"
+                            <a href="https://github.com/sabirmhd/Virtual-Mouse-using-Hand-Gestures"
                                 class="text-primary hover:text-secondary">
                                 <i class="fab fa-github"></i> Code
                             </a>
@@ -667,32 +648,7 @@
                     </div>
                 </div>
 
-                <!-- Project 5 -->
-                <div class="project-card rounded-xl overflow-hidden card-hover">
-                    <div class="h-48 overflow-hidden">
-                        <img src="assets/p5.png" alt="Project 5" class="w-full h-full object-cover">
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Portfolio Website</h3>
-                        <p class="text-slate-400 mb-4">
-                            A responsive portfolio website built with modern design principles.
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">HTML5</span>
-                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">CSS3</span>
-                            <span class="px-3 py-1 bg-slate-700 rounded-full text-sm">JavaScript</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-primary hover:text-secondary">
-                                <i class="fas fa-external-link-alt"></i> Live Demo
-                            </a>
-                            <a href="https://github.com/sabirmhd/portfolio" class="text-primary hover:text-secondary">
-                                <i class="fab fa-github"></i> Code
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+    
                 <!-- Project 6 -->
                 <div class="project-card rounded-xl overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
@@ -720,8 +676,8 @@
                     </div>
                 </div>
 
-                <!-- Project 7 -->
-                <div class="project-card rounded-xl overflow-hidden card-hover pro-hidden hidden">
+                <!-- Project 5 -->
+                <div class="project-card rounded-xl overflow-hidden card-hover">
                     <div class="h-48 overflow-hidden">
                         <img src="assets/p5.png" alt="Project 5" class="w-full h-full object-cover">
                     </div>
@@ -745,6 +701,7 @@
                         </div>
                     </div>
                 </div>
+
         </div>
 
             <div class="text-center mt-12">
@@ -758,6 +715,28 @@
                 </span>
                 </button>
             </div>
+
+                <!-- VIDEO MODAL!!!!!!!! -->
+                <div class="modal fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center p-4 z-50"
+                    id="videoModal" style="visibility:hidden; opacity:0;">
+                    <div class="modal-content bg-slate-800 rounded-xl w-full max-w-4xl overflow-hidden">
+                        <div class="modal-header flex justify-between items-center p-4 border-b border-slate-700">
+                            <h3 class="text-xl font-bold" id="modalTitle">Project Demo</h3>
+                            <button class="close-modal text-2xl text-slate-400 hover:text-white">&times;</button>
+                        </div>
+                        <div class="modal-body p-4">
+                            <video id="demoVideo" controls class="w-full rounded-lg">
+                                Your browser does not support the video tag.
+                            </video>
+                        </div>
+                        <div class="modal-footer p-4 border-t border-slate-700 text-right">
+                            <button
+                                class="close-modal bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+
         </div>
     </section>
 
@@ -1033,242 +1012,8 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
-    <script>
-        // Mobile menu toggle
-        const menuToggle = document.getElementById('menu-toggle');
-        const mobileMenu = document.getElementById('mobile-menu');
+<script src="script.js" defer></script>
 
-        menuToggle.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-
-        // Smooth scrolling for navigation links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                const targetId = this.getAttribute('href');
-                const targetElement = document.querySelector(targetId);
-
-                if (targetElement) {
-                    window.scrollTo({
-                        top: targetElement.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
-
-                    // Close mobile menu if open
-                    if (!mobileMenu.classList.contains('hidden')) {
-                        mobileMenu.classList.add('hidden');
-                    }
-
-                    // Update active link
-                    document.querySelectorAll('.nav-link').forEach(link => {
-                        link.classList.remove('active');
-                    });
-                    this.classList.add('active');
-                }
-            });
-        });
-
-        // Update active link on scroll
-        window.addEventListener('scroll', () => {
-            const scrollPosition = window.scrollY;
-
-            document.querySelectorAll('section').forEach(section => {
-                const sectionTop = section.offsetTop - 100;
-                const sectionHeight = section.offsetHeight;
-                const sectionId = section.getAttribute('id');
-
-                if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                    document.querySelectorAll('.nav-link').forEach(link => {
-                        link.classList.remove('active');
-                        if (link.getAttribute('href') === `#${sectionId}`) {
-                            link.classList.add('active');
-                        }
-                    });
-                }
-            });
-
-            // Show/hide back to top button
-            const backToTopButton = document.getElementById('back-to-top');
-            if (scrollPosition > 300) {
-                backToTopButton.classList.remove('hidden');
-            } else {
-                backToTopButton.classList.add('hidden');
-            }
-        });
-
-        // Back to top button
-        document.getElementById('back-to-top').addEventListener('click', () => {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Animate skill bars on scroll
-        const animateSkillBars = () => {
-            const skillBars = document.querySelectorAll('.skill-progress');
-            const skillsSection = document.getElementById('skills');
-            const skillsSectionTop = skillsSection.offsetTop;
-            const windowHeight = window.innerHeight;
-
-            if (window.scrollY > skillsSectionTop - windowHeight + 200) {
-                skillBars.forEach(bar => {
-                    const width = bar.style.width;
-                    bar.style.width = '0';
-                    setTimeout(() => {
-                        bar.style.width = width;
-                    }, 100);
-                });
-
-                // Remove event listener after animation
-                window.removeEventListener('scroll', animateSkillBars);
-            }
-        };
-
-        window.addEventListener('scroll', animateSkillBars);
-
-        document.addEventListener('DOMContentLoaded', function () {
-            const modal = document.getElementById('videoModal');
-            const video = document.getElementById('demoVideo');
-            const modalTitle = document.getElementById('modalTitle');
-            const closeButtons = document.querySelectorAll('.close-modal');
-
-            // Attach event listener to ALL demo buttons
-            document.querySelectorAll('.live-demo-btn').forEach(btn => {
-                btn.addEventListener('click', function (e) {
-                    e.preventDefault();
-
-                    // Get video & title from data attributes
-                    const videoSrc = this.getAttribute('data-video');
-                    const title = this.getAttribute('data-title');
-
-                    // Update modal
-                    video.src = videoSrc;
-                    modalTitle.textContent = title;
-
-                    // Show modal
-                    modal.style.visibility = "visible";
-                    modal.style.opacity = "1";
-
-                    // Play video
-                    setTimeout(() => video.play(), 300);
-                });
-            });
-
-            // Close modal
-            closeButtons.forEach(btn => {
-                btn.addEventListener('click', function () {
-                    modal.style.visibility = "hidden";
-                    modal.style.opacity = "0";
-
-                    // Pause and reset video
-                    video.pause();
-                    video.currentTime = 0;
-                });
-            });
-        });
-
-
-
-        // form modal 
-        document.getElementById("contact-form").addEventListener("submit", async function (e) {
-            e.preventDefault(); // stop default form redirect
-            const form = e.target;
-            const statusDiv = document.getElementById("form-status");
-
-            // Helper function to show message
-            function showMessage(message, bgColor) {
-                // Add message text
-                statusDiv.innerHTML = `
-            <span>${message}</span>
-            <button id="close-status" class="ml-4 font-bold">&times;</button>
-        `;
-                statusDiv.className = `mt-4 p-4 rounded-lg text-white font-medium ${bgColor} flex justify-between items-center`;
-                statusDiv.style.display = "flex";
-
-                // Auto-hide after 2 seconds
-                const timeoutId = setTimeout(() => {
-                    statusDiv.style.display = "none";
-                }, 2000);
-
-                // Close button functionality
-                document.getElementById("close-status").addEventListener("click", () => {
-                    statusDiv.style.display = "none";
-                    clearTimeout(timeoutId);
-                });
-            }
-
-            try {
-                const response = await fetch(form.action, {
-                    method: form.method,
-                    body: new FormData(form),
-                    headers: { 'Accept': 'application/json' }
-                });
-
-                if (response.ok) {
-                    showMessage(" Message sent successfully!", "bg-green-500");
-                    form.reset();
-                } else {
-                    showMessage(" Oops! Something went wrong. Please try again.", "bg-red-500");
-                }
-            } catch (error) {
-                showMessage("⚠️ Network error. Please try again later.", "bg-yellow-500");
-            }
-        });
-
-
-        //CERT
-        function openCertificate(src) {
-            document.getElementById("certificateImage").src = src;
-            document.getElementById("certificateModal").classList.remove("hidden");
-            document.getElementById("certificateModal").classList.add("flex");
-        }
-        function closeCertificate() {
-            document.getElementById("certificateModal").classList.add("hidden");
-            document.getElementById("certificateModal").classList.remove("flex");
-        }
-
-
-            document.addEventListener('DOMContentLoaded', () => {
-
-            // --- Toggle "View More" Turfs Logic ---
-            const viewMoreBtn = document.getElementById('view-more-btn');
-
-            // Only run the script if the button exists on the page
-            if (viewMoreBtn) {
-                const btnText = document.getElementById('view-more-text');
-                const downIcon = viewMoreBtn.querySelector('.chevron-down-icon');
-                const upIcon = viewMoreBtn.querySelector('.chevron-up-icon');
-
-                viewMoreBtn.addEventListener('click', () => {
-                    // Select all the elements that are meant to be toggled
-                    const extraTurfs = document.querySelectorAll('.pro-hidden');
-                    
-                    // Check the current state by reading the button's text
-                    const isShowingMore = btnText.textContent.trim() === 'View Less';
-                    
-                    // Loop through the hidden turfs and toggle the 'hidden' class
-                    extraTurfs.forEach(turf => turf.classList.toggle('hidden'));
-                    
-                    // Update the button text and icons based on the new state
-                    btnText.textContent = isShowingMore ? 'View all projects' : 'View Less';
-                    downIcon.classList.toggle('hidden');
-                    upIcon.classList.toggle('hidden');
-                    
-                    // If the user clicked "View Less", scroll them back to the top of the section
-                    if (isShowingMore) {
-                        document.getElementById('browse').scrollIntoView({ behavior: 'smooth' });
-                    }
-                });
-            }
-
-        });
-
-
-
-    </script>
 </body>
 
 </html>
